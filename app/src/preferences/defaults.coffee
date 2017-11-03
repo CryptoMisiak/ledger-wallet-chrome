@@ -448,6 +448,21 @@ ledger.preferences.dogecoin =
         address: 'https://chain.so/tx/DOGE/%s'
     discoveryGap: 20
 
+ledger.preferences.bitcoinz =
+  Display:
+    units:
+      bitcoin:
+        symbol: 'BTCZ'
+        unit: 8
+
+  # Coin preferences
+  Coin:
+    explorers:
+      bitcoinzph:
+        name: 'BitcoinZ.ph'
+        address: 'https://bitcoinz.ph/tx/%s'
+    discoveryGap: 20
+
 ledger.preferences.zcash =
   Display:
     units:
